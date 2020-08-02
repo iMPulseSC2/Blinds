@@ -119,12 +119,18 @@
             <!-- TAB CONTROL -->
             <TabControl>
                 <TabItem Header="Skicka offert">
+                    <ScrollViewer Margin="0"
+                              HorizontalScrollBarVisibility="Auto"
+                              VerticalScrollBarVisibility="Auto">
                     <local:Quote></local:Quote>
-
+                    </ScrollViewer>
                 </TabItem>
                 <TabItem Header="Beställ produkter">
+                    <ScrollViewer Margin="0"
+                              HorizontalScrollBarVisibility="Auto"
+                              VerticalScrollBarVisibility="Auto">
                     <local:Order></local:Order>
-
+                    </ScrollViewer>
                 </TabItem>
             </TabControl>
         </StackPanel>
