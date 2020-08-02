@@ -1,0 +1,97 @@
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\PersiennGiganten 2020.exe.config
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\PersiennGiganten 2020.exe
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\PersiennGiganten 2020.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\ControlzEx.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\ControlzEx.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\ControlzEx.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\MainWindow.g.cs
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\App.g.cs
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020_MarkupCompile.cache
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020_MarkupCompile.lref
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\App.baml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\MainWindow.baml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.g.resources
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten_2020.Properties.Resources.resources
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.csproj.GenerateResource.cache
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.csproj.CoreCompileInputs.cache
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.csproj.CopyComplete
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.exe
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\Windows\Order.g.cs
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\Windows\Quote.g.cs
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\Windows\Order.baml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\Windows\Quote.baml
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.csprojAssemblyReference.cache

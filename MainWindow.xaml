@@ -1,0 +1,179 @@
+﻿<mah:MetroWindow x:Class="PersiennGiganten_2020.MainWindow"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PersiennGiganten_2020.Windows"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+       Title="PersiennGiganten 2020"
+                 Width="1417"
+                 Height="1130"
+                 GlowBrush="{DynamicResource MahApps.Brushes.Accent}"
+                 ResizeMode="CanResizeWithGrip"
+                 WindowStartupLocation="CenterScreen"
+                 mc:Ignorable="d">
+    <mah:MetroWindow.LeftWindowCommands>
+        <mah:WindowCommands>
+            <Button Click="LaunchGitHubSite" ToolTip="Open up the GitHub site">
+                <iconPacks:PackIconModern Width="20"
+                                  Height="20"
+                                  Kind="SocialGithubOctocat" />
+            </Button>
+        </mah:WindowCommands>
+    </mah:MetroWindow.LeftWindowCommands>
+
+    <mah:MetroWindow.RightWindowCommands>
+        <mah:WindowCommands>
+            <Button Click="DeployCupCakes" Content="Inloggad som: Gäst">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <iconPacks:PackIconMaterial Width="20"
+                                        Height="20"
+                                        VerticalAlignment="Center"
+                                        Kind="Account" />
+                            <TextBlock Margin="4 0 0 0"
+                         VerticalAlignment="Center"
+                         Text="{Binding}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+        </mah:WindowCommands>
+    </mah:MetroWindow.RightWindowCommands>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="28"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="22*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0"
+              Margin="0"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Stretch" Grid.RowSpan="3">
+            <MenuItem Header="File">
+                <MenuItem Header="Ny Order"/>
+                <MenuItem Header="Spara"/>
+            </MenuItem>
+
+            <MenuItem Header="Edit">
+                <MenuItem Header="Spara"/>
+                <MenuItem Header="Klipp ut"/>
+            </MenuItem>
+            <MenuItem Header="Om">
+                <MenuItem Header="ShowTitleBar"
+                          IsCheckable="True"
+                          IsChecked="{Binding ShowMyTitleBar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <MenuItem Header="ShowInTaskbar"
+                          IsCheckable="True"
+                          IsChecked="{Binding ShowInTaskbar, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}" />
+                <MenuItem Header="Topmost"
+                          IsCheckable="True"
+                          IsChecked="{Binding Topmost, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}" />
+                <MenuItem Header="Ignore taskbar on maximize"
+                          IsCheckable="True"
+                          IsChecked="{Binding IgnoreTaskbarOnMaximize, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}" />
+                <MenuItem Header="Toggle FullScreen (no taskbar, window style = none)"
+                          IsCheckable="True"
+                          IsChecked="{Binding ToggleFullScreen, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}" />
+                <Separator />
+                <MenuItem Header="Window without Border" />
+                <MenuItem Header="Window with Border" />
+                <MenuItem Header="Window with Glow" />
+                <MenuItem Header="Window with drop shadow" />
+                <MenuItem Header="Window with SizeToContent" />
+                <Separator />
+                <MenuItem x:Name="ShowSeparatorsMI"
+                          Header="ShowSeparators (RightWindowCommands)"
+                          IsCheckable="True"
+                          IsChecked="{Binding RightWindowCommands.ShowSeparators, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}" />
+                <MenuItem Header="ShowLastSeparator in (RightWindowCommands)"
+                          IsCheckable="True"
+                          IsChecked="{Binding RightWindowCommands.ShowLastSeparator, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}"
+                          IsEnabled="{Binding IsChecked, ElementName=ShowSeparatorsMI, Mode=OneWay}" />
+                <Separator />
+                <MenuItem Command="{Binding ToggleIconScalingCommand}"
+                          CommandParameter="{x:Static mah:MultiFrameImageMode.ScaleDownLargerFrame}"
+                          Header="Window icon: scale down larger frame"
+                          IsCheckable="True"
+                          IsChecked="{Binding IsScaleDownLargerFrame, Mode=OneWay}" />
+                <MenuItem Command="{Binding ToggleIconScalingCommand}"
+                          CommandParameter="{x:Static mah:MultiFrameImageMode.NoScaleSmallerFrame}"
+                          Header="Window icon: no scale, smaller frame"
+                          IsCheckable="True"
+                          IsChecked="{Binding IsNoScaleSmallerFrame, Mode=OneWay}" />
+                <Separator />
+                <MenuItem Header="ShowSystemMenu"
+                          IsCheckable="True"
+                          IsChecked="{Binding ShowSystemMenu, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}" />
+                <MenuItem Header="ShowSystemMenuOnRightClick"
+                          IsCheckable="True"
+                          IsChecked="{Binding ShowSystemMenuOnRightClick, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:MetroWindow}}}" />
+            </MenuItem>
+        </Menu>
+        <StackPanel Grid.Row="1" Margin="15 5 15 5">
+            <!-- TAB CONTROL -->
+            <TabControl>
+                <TabItem Header="Skicka offert">
+                    <local:Quote></local:Quote>
+
+                </TabItem>
+                <TabItem Header="Beställ produkter">
+                    <local:Order></local:Order>
+
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right">
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Width="183" FirstDayOfWeek="Monday" SelectedDateFormat="Long" SelectedDate="{x:Static system:DateTime.Now}" Grid.Row="2" Height="26" Margin="0 2 2 0"/>
+        </StackPanel>
+        <StatusBar Grid.Row="2" VerticalAlignment="Bottom" Height="22" Margin="0" MinWidth="1222"/>
+
+        <!--<DockPanel Visibility="Visible" Margin="0" VerticalAlignment="Top">
+            <Menu DockPanel.Dock="Top" Width="Auto" Height="22" VerticalAlignment="Top" Background="#FF535353">
+                <MenuItem Header="_File" Foreground="White">
+                    <MenuItem x:Name="menuNew" Header="_New" InputGestureText="Ctrl+N" Click="MenuNew_Click" Foreground="DarkSlateGray">
+                        <MenuItem.Icon>
+                            <iconPacks:PackIconModern Height="16" Width="16" Kind="PageNew" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator></Separator>
+                    <MenuItem x:Name="menuExit" Header="_Exit" InputGestureText="Ctrl+W" Click="MenuExit_Click" Foreground="DarkSlateGray">
+                        <MenuItem.Icon>
+                            <iconPacks:PackIconModern Height="16" Width="16" Kind="DoorLeave" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Edit" Foreground="White">
+                    <MenuItem x:Name="menuCut" Header="_Cut" InputGestureText="Ctrl+X" Command="ApplicationCommands.Cut" Foreground="DarkSlateGray">
+                        <MenuItem.Icon>
+                            <iconPacks:PackIconModern Height="16" Width="16" Kind="Scissor" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuCopy" Header="_Copy" InputGestureText="Ctrl+C" Command="ApplicationCommands.Copy" Foreground="DarkSlateGray">
+                        <MenuItem.Icon>
+                            <iconPacks:PackIconFontAwesome Height="16" Width="16" Kind="CloneRegular" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuPaste" Header="_Paste" InputGestureText="Ctrl+V" Command="ApplicationCommands.Paste" Foreground="DarkSlateGray">
+                        <MenuItem.Icon>
+                            <iconPacks:PackIconModern Height="16" Width="16" Kind="ClipboardPaste" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+
+                </MenuItem>
+                <MenuItem Header="_Help" HorizontalContentAlignment="Right" Foreground="White">
+                    <MenuItem x:Name="menuHelp" Header="_About" Click="MenuHelp_Click" Foreground="DarkSlateGray">
+                        <MenuItem.Icon>
+                            <iconPacks:PackIconModern Height="16" Width="16" Kind="InformationCircle" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+        </DockPanel>-->
+    </Grid>
+</mah:MetroWindow>
