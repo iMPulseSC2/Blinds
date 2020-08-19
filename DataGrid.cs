@@ -16,6 +16,8 @@ namespace PersiennGiganten_2020
         public double Width { get; set; }
         public double Height { get; set; }
         public double PriceInclTax { get; set; }
+        public double Discount { get; set; }
+        public string Comment { get; set; }
         public double _PriceExclTax;
         public double PriceExclTax
         {

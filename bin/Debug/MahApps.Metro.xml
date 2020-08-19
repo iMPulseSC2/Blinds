@@ -41,6 +41,41 @@
             Gets or sets an object that will be passed to the <see cref="P:MahApps.Metro.Actions.CommandTriggerAction.Command" /> attached to this trigger.
             </summary>
         </member>
+        <member name="T:MahApps.Metro.Automation.Peers.MetroHeaderAutomationPeer">
+            <summary>
+            The MetroHeaderAutomationPeer class exposes the <see cref="T:MahApps.Metro.Controls.MetroHeader" /> type to UI Automation.
+            </summary>
+        </member>
+        <member name="T:MahApps.Metro.Automation.Peers.MetroThumbContentControlAutomationPeer">
+            <summary>
+            The MetroThumbContentControlAutomationPeer class exposes the <see cref="T:MahApps.Metro.Controls.MetroThumbContentControl" /> type to UI Automation.
+            </summary>
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.ToggleSwitchAutomationPeer.#ctor(MahApps.Metro.Controls.ToggleSwitch)">
+            <summary>Initializes a new instance of the <see cref="T:MahApps.Metro.Automation.Peers.ToggleSwitchAutomationPeer" /> class.</summary>
+            <param name="owner">The <see cref="T:MahApps.Metro.Controls.ToggleSwitch" /> associated with this <see cref="T:MahApps.Metro.Automation.Peers.ToggleSwitchAutomationPeer" />.</param>
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.ToggleSwitchAutomationPeer.GetClassNameCore">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.ToggleSwitchAutomationPeer.GetAutomationControlTypeCore">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.ToggleSwitchAutomationPeer.GetPattern(System.Windows.Automation.Peers.PatternInterface)">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.WindowCommandsAutomationPeer.GetClassNameCore">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.WindowCommandsAutomationPeer.GetAutomationControlTypeCore">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.WindowCommandsAutomationPeer.GetNameCore">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.Automation.Peers.WindowCommandsAutomationPeer.IsOffscreenCore">
+            <inheritdoc />
+        </member>
         <member name="F:MahApps.Metro.Behaviors.PasswordBoxBindingBehavior.PasswordProperty">
             <summary>
                 Gets or sets the bindable Password property on the PasswordBox control. This is a dependency property.
@@ -5419,11 +5454,6 @@
             Creates AutomationPeer (<see cref="M:System.Windows.UIElement.OnCreateAutomationPeer" />)
             </summary>
         </member>
-        <member name="T:MahApps.Metro.Controls.MetroHeaderAutomationPeer">
-            <summary>
-            The MetroHeaderAutomationPeer class exposes the <see cref="T:MahApps.Metro.Controls.MetroHeader" /> type to UI Automation.
-            </summary>
-        </member>
         <member name="T:MahApps.Metro.Controls.MetroNavigationWindow">
             <summary>
             A reimplementation of NavigationWindow based on MetroWindow.
@@ -5695,11 +5725,6 @@
         <member name="P:MahApps.Metro.Controls.MetroThumbContentControl.IsDragging">
             <summary>
             Indicates that the left mouse button is pressed and is over the MetroThumbContentControl.
-            </summary>
-        </member>
-        <member name="T:MahApps.Metro.Controls.MetroThumbContentControlAutomationPeer">
-            <summary>
-            The MetroThumbContentControlAutomationPeer class exposes the <see cref="T:MahApps.Metro.Controls.MetroThumbContentControl" /> type to UI Automation.
             </summary>
         </member>
         <member name="T:MahApps.Metro.Controls.MetroWindow">
@@ -6013,6 +6038,11 @@
         </member>
         <member name="P:MahApps.Metro.Controls.MetroWindow.LogicalChildren">
             <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.Controls.MetroWindow.OnCreateAutomationPeer">
+            <summary>
+            Creates AutomationPeer (<see cref="M:System.Windows.UIElement.OnCreateAutomationPeer"/>)
+            </summary>
         </member>
         <member name="M:MahApps.Metro.Controls.MetroWindow.GetPart``1(System.String)">
             <summary>
@@ -7319,6 +7349,19 @@
                 <see cref="F:System.Windows.Controls.Orientation.Horizontal" />.
             </returns>
         </member>
+        <member name="F:MahApps.Metro.Controls.DateTimePicker.CalendarStyleProperty">
+            <summary>Identifies the <see cref="P:MahApps.Metro.Controls.DateTimePicker.CalendarStyle"/> dependency property.</summary>
+        </member>
+        <member name="P:MahApps.Metro.Controls.DateTimePicker.CalendarStyle">
+            <summary>
+            Gets or sets the style that is used when rendering the calendar.
+            </summary>
+        </member>
+        <member name="P:MahApps.Metro.Controls.DateTimePicker.BlackoutDates">
+            <summary>
+            Gets the days that are not selectable.
+            </summary>
+        </member>
         <member name="M:MahApps.Metro.Controls.DateTimePicker.FocusElementAfterIsDropDownOpenChanged">
             <inheritdoc />
         </member>
@@ -7783,19 +7826,6 @@
         <member name="P:MahApps.Metro.Controls.ToggleSwitch.IsEnabledCore">
             <inheritdoc />
         </member>
-        <member name="M:MahApps.Metro.Controls.ToggleSwitchAutomationPeer.#ctor(MahApps.Metro.Controls.ToggleSwitch)">
-            <summary>Initializes a new instance of the <see cref="T:MahApps.Metro.Controls.ToggleSwitchAutomationPeer" /> class.</summary>
-            <param name="owner">The <see cref="T:MahApps.Metro.Controls.ToggleSwitch" /> associated with this <see cref="T:MahApps.Metro.Controls.ToggleSwitchAutomationPeer" />.</param>
-        </member>
-        <member name="M:MahApps.Metro.Controls.ToggleSwitchAutomationPeer.GetClassNameCore">
-            <inheritdoc />
-        </member>
-        <member name="M:MahApps.Metro.Controls.ToggleSwitchAutomationPeer.GetAutomationControlTypeCore">
-            <inheritdoc />
-        </member>
-        <member name="M:MahApps.Metro.Controls.ToggleSwitchAutomationPeer.GetPattern(System.Windows.Automation.Peers.PatternInterface)">
-            <inheritdoc />
-        </member>
         <member name="T:MahApps.Metro.Controls.TransitionType">
             <summary>
             enumeration for the different transition types
@@ -7951,6 +7981,16 @@
             </summary>
             <param name="visual">The visual element to get the monitor information.</param>
             <returns>The working area size of the monitor.</returns>
+        </member>
+        <member name="M:MahApps.Metro.Controls.WinApiHelper.GetWindowText(System.Windows.Window)">
+            <summary> Gets the text associated with the given window handle. </summary>
+            <param name="window"> The window to act on. </param>
+            <returns> The window text. </returns>
+        </member>
+        <member name="M:MahApps.Metro.Controls.WinApiHelper.GetWindowBoundingRectangle(System.Windows.Window)">
+            <summary> Gets the text associated with the given window handle. </summary>
+            <param name="window"> The window to act on. </param>
+            <returns> The window text. </returns>
         </member>
         <member name="F:MahApps.Metro.Controls.WindowButtonCommands.LightMinButtonStyleProperty">
             <summary>Identifies the <see cref="P:MahApps.Metro.Controls.WindowButtonCommands.LightMinButtonStyle"/> dependency property.</summary>
@@ -8108,6 +8148,11 @@
         <member name="P:MahApps.Metro.Controls.WindowCommands.ParentWindow">
             <summary>
             Gets the window.
+            </summary>
+        </member>
+        <member name="M:MahApps.Metro.Controls.WindowCommands.OnCreateAutomationPeer">
+            <summary>
+            Creates AutomationPeer (<see cref="M:System.Windows.UIElement.OnCreateAutomationPeer"/>)
             </summary>
         </member>
         <member name="F:MahApps.Metro.Controls.WindowCommandsItem.IsSeparatorVisibleProperty">

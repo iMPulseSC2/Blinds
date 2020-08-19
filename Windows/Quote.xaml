@@ -45,10 +45,10 @@
                     <TextBox x:Name="TxtboxCustomerInfoZipCode" Text="" Width="90" Height="26"/>
                 </StackPanel>
                 <StackPanel Grid.Column="4" VerticalAlignment="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 0 3">
-                    <Button x:Name="BtnClearContantInfo" Height="27" Click="BtnClearContantInfo_Click">
+                    <Button x:Name="BtnClearContantInfo" Click="BtnClearContantInfo_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock>RENSA FÄLT</TextBlock>
-                            <iconPacks:PackIconMaterial Kind="DeleteForever" Margin="3 -1 0 3" Width="15" Height="15"/>
+                            <iconPacks:PackIconMaterial Kind="DeleteForever" Margin="3 -1 0 0" Width="15" Height="15"/>
                         </StackPanel>
                     </Button>
                 </StackPanel>
@@ -81,7 +81,7 @@
                         VirtualizingPanel.IsVirtualizingWhenGrouping="True" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,0,0">
 
                     <DataGrid.Columns>
-                        <DataGridTextColumn Binding="{Binding Product}" Header="Produkt" Width="*" IsReadOnly="True"/>
+                        <DataGridTextColumn Binding="{Binding Product}" Header="Produkt" Width="200" IsReadOnly="True"/>
                         <DataGridTextColumn Binding="{Binding Comment}" Header="Anmärkning" Width="180"/>
                         <mah:DataGridNumericUpDownColumn Header="Antal"
                                           Binding="{Binding Quantity}"
@@ -91,8 +91,8 @@
                         <DataGridTextColumn Binding="{Binding Height}" Header="Höjd" Width="*"/>
                         <DataGridTextColumn Binding="{Binding PriceGroup}" Header="Prisgrupp" Width="*"/>
                         <DataGridTextColumn Binding="{Binding PricePerPiece}" Header="Á-pris" Width="*"/>
-                        <DataGridTextColumn Binding="{Binding PriceExclTax}" Header="Exkl. moms" Width="*"/>
-                        <DataGridTextColumn Binding="{Binding Discount}" Header="Rabatt %" Width="*"/>
+                        <DataGridTextColumn Binding="{Binding PriceExclTax}" Header="Exkl. moms" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding Discount, StringFormat=P2}" Header="Rabatt" Width="*"/>
                         <DataGridTextColumn Binding="{Binding PriceInclTax}" Header="Pris" Width="*"/>
 
                     </DataGrid.Columns>
@@ -256,13 +256,13 @@
                     </Grid.RowDefinitions>
 
                     <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Top" Margin="0 0 0 0" HorizontalAlignment="Left">
-                        <Button x:Name="BtnRemoveSelectedCellsDataGrid" Height="27" Click="BtnRemoveSelectedCellsDataGrid_Click">
+                        <Button x:Name="BtnRemoveSelectedCellsDataGrid" Click="BtnRemoveSelectedCellsDataGrid_Click">
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock>TA BORT MARKERING</TextBlock>
                                 <iconPacks:PackIconModern Kind="CellRowDelete" Margin="3 -2 0 0" Width="18" Height="18" />
                             </StackPanel>
                         </Button>
-                        <Button x:Name="BtnDeleteAllCellsDataGrid" Height="27" Margin="5 0 0 0" Click="BtnDeleteAllCellsDataGrid_Click">
+                        <Button x:Name="BtnDeleteAllCellsDataGrid" Margin="5 0 0 0" Click="BtnDeleteAllCellsDataGrid_Click">
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock>RENSA HELA LISTAN</TextBlock>
                                 <iconPacks:PackIconMaterial Kind="DeleteSweep" Margin="3 -1 0 0"/>
@@ -285,8 +285,8 @@
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
                         <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center">
-                            <Button x:Name="BtnDiscountSelectedCellsDataGrid" Content="Rabatt till markering" Height="27"/>
-                            <Button x:Name="BtnDiscounAllCellsDataGrid" Content="Rabatt till samtliga produkter" Height="27" Margin="5 0 0 0"/>
+                            <Button x:Name="BtnDiscountSelectedCellsDataGrid" Content="Rabatt till markering"/>
+                            <Button x:Name="BtnDiscounAllCellsDataGrid" Content="Rabatt till samtliga produkter" Margin="5 0 0 0"/>
                         </StackPanel>
                         <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Top" Width="Auto">
                             <Label Content="Mängd rabatt: " Margin="0 30 0 0"/>
@@ -338,7 +338,7 @@
                                 <TextBox x:Name="TxtboxInstallationCostCategory1Sum" Width="85" Margin="0 0 3 0" HorizontalAlignment="Right"/>
                                 <TextBox x:Name="TxtboxInstallationCostCategory2Sum" Width="85" Margin="0 3 3 0" HorizontalAlignment="Right"/>
                                 <TextBox x:Name="TxtboxInstallationCostSum" Width="85" Margin="0 3 3 0" HorizontalAlignment="Right"/>
-                                <Button Content="Uträkna" HorizontalAlignment="Right" Width="85" Height="27" Margin="0 3 3 0" />
+                                <Button Content="Uträkna" HorizontalAlignment="Right" Width="85" Margin="0 3 3 0" />
 
                             </StackPanel>
 

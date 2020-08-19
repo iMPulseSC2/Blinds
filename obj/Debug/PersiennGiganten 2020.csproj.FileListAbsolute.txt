@@ -95,3 +95,5 @@ C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debu
 C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\Windows\Quote.baml
 C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\obj\Debug\PersiennGiganten 2020.csprojAssemblyReference.cache
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\EPPlus.dll
+C:\Users\xodiu\source\repos\PersiennGiganten 2020\PersiennGiganten 2020\bin\Debug\EPPlus.xml
